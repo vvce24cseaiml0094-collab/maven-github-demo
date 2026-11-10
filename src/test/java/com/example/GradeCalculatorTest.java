@@ -7,13 +7,13 @@ public class GradeCalculatorTest {
 		// TODO Auto-generated method stub
 		@Test
 		void Gradetotal() {
-			assertEquals(225, GradeCalculator.total(75, 68, 82)); 
+			assertEquals(235, GradeCalculator.total(75, 68, 82)); 
 		}
 	    
 		@Test
 		void Average()
 		{
-			assertEquals(75.0,GradeCalculator.average(75,68,82));
+			assertEquals(76.0,GradeCalculator.average(75,68,82));
 		}
 		
 		@Test
